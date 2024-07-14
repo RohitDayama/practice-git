@@ -5,3 +5,5 @@
      apt: git  state= present
    - name: "install nginx"
      apt: nginx state= present  
+   - name: "install httpd"
+     apt: httpd state=present

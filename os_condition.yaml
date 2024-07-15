@@ -9,6 +9,6 @@
      apt: httpd state=present   
    - name: "install curl"
      apt: curl state:latested 
-   - name: "install api"
+   - name: "install api-java"
      apt: api state:latested  
 

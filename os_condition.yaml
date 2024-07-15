@@ -4,6 +4,11 @@
    - name: "install git" 
      apt: git  state= present
    - name: "install nginx"
-     apt: nginx state= present  
+     apt: nginx state= present 
    - name: "install httpd"
-     apt: httpd state=present
+     apt: httpd state=present   
+   - name: "install curl"
+     apt: curl state:latested 
+   - name: "install api"
+     apt: api state:latested  
+
